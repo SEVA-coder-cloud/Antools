@@ -1,5 +1,106 @@
-.logo{
-width: 500px;
-height: 500px;
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
+
+
+
+body {
+    margin: 0 auto !important;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.canteiner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1440px;
+    height: 5252px;
+    background: #1E252B;
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 38px;
+}
+
+.logo {
+    width: 130.74px;
+    height: 33px;
+    margin-top: -4px;
+    margin-left: 117.26px;
+    display: block;
+}
+
+.nav {
+    width: 431px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 257px;
+}
+
+.nav>a {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+}
+
+.nav>a:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.ae {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    margin-left: 193px;
+}
+
+.s-bn {
+    width: 118px;
+    height: 48px;
+    border-radius: 8px;
+    color: rgba(253, 245, 255, 1);
+    background: rgba(255, 110, 48, 1);
+    margin-left: 41px;
+    margin-top: -12px;
+    border: none;
+}
+
+.h1 {
+    margin-top: 104px;
+    margin-left: 108px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 50px;
+}
+
+.h1>samp {
+    color: rgba(255, 110, 48, 1) !important;
+    font-size: 50px;
+}
+
+.pheder {
+    margin-top: 30px;
+    margin-left: 108px;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+}
+
+.ilustrate-img {
+    height: 568px;
+    width: 599px;
+    display: flex;
+    justify-content: center;
+    margin-left: 851px;
+    margin-top: -4px;
+}
+
+.form {
+    width: 497.66px;
+    height: 64px;
+    border-radius: 15px;
+    margin-top: 60px;
+    background: rgba(40, 48, 54, 1);
+    justify-content: center;
 }
