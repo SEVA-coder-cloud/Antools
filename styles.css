@@ -138,3 +138,37 @@ body {
     margin-top: 111px;
     margin-left: 111px;
 }
+
+.popular {
+    width: 1224px;
+    height: 1109px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 108px;
+    gap: 22px;
+    justify-content: center;
+}
+
+.h2-p>h2 {
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+.h2-p>p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.h2-p {
+    margin-left: px;
+    width: 455px;
+    height: 147px;
+    margin-bottom: 210px;
+ display: flex;
+    display: block;
+}
+.resentagle{
+    width: 392px;
+    height: 294px;
+}
