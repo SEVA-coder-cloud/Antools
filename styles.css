@@ -141,7 +141,7 @@ body {
 
 .popular {
     width: 1224px;
-    height: 1109px;
+    height: 294px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 108px;
@@ -161,14 +161,43 @@ body {
 }
 
 .h2-p {
-    margin-left: px;
+    margin-top: 200px;
+    margin-left: 493px;
     width: 455px;
     height: 147px;
     margin-bottom: 210px;
- display: flex;
-    display: block;
+ text-align: center;
 }
 .resentagle{
     width: 392px;
     height: 294px;
+}
+.popular2{
+    width: 1224px;
+    height: 294px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 108px;
+    gap: 22px;
+    justify-content: center;
+}
+
+.small-button{
+background: #1E252B;
+border: none;
+margin-top: 30px;
+}
+.p1{
+   color:  rgba(255, 165, 55, 0.55);
+   margin-left: 127px;
+   margin-bottom: 30px;
+}
+.h2{
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 127px;
+    margin-top: -66px;
+}
+.p2{
+    color: rgba(255, 255, 255, 0.78);
+    margin-left: 33px;
 }
