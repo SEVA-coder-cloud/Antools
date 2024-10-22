@@ -201,3 +201,118 @@ margin-top: 30px;
     color: rgba(255, 255, 255, 0.78);
     margin-left: 33px;
 }
+.button {
+    display: inline-block;
+    background: #FF6E30;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .2s;
+  }
+  
+  .button--small {
+    height: 42px;
+    padding: 9px 35px;
+    font-size: 16px;
+  }
+  
+  .button--transparent {
+    background: none;
+  }
+  
+  /* TODO plain, transparent */
+  /* TODO small, default, big, large*/
+  
+  /**
+  * Section
+  */
+  
+  .section__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 23px;
+    row-gap: 100px;
+  }
+  
+  /**
+  * TOOL CARD
+  */
+  .tool-card {
+    padding: 33px;
+    border-radius: 15px;
+    opacity: 0.78;
+    transform: translateY(0);
+    transition: all .2s;
+  }
+  
+  .tool-card__head {
+    display: flex;
+    column-gap: 30px;
+  }
+  
+  .tool-card__label {
+    margin-bottom: 0.25em;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  
+  .tool-card__cost {
+    color: #ffa537;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .tool-card__description {
+    margin-top: 30px;
+    color: #FFFFFFC7;
+    font-size: 16px;
+    line-height: 1.85;
+  }
+  
+  .tool-card__footer {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 12px;
+  }
+  
+  .tool-card__action-button {
+    margin-left: auto;
+  }
+  
+  .tool-card:hover {
+    opacity: 1;
+    transform: translateY(-20px);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+  }
+  .tool-card:hover .button--transparent {
+    background: #FF6E30;
+  }
+  
+  /**
+  * ICON
+  */
+  .card-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 7px;
+    cursor: pointer;
+    color: #FFFFFF8C;
+    font-size: 24px;
+  }
+  
+  .card-icon svg {
+    height: 1em;
+    width: 1em;
+  }
+  
+  .card-icon.isActive {
+    background-color: rgba(40, 48, 54, 1);
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    color: #FD3B41;
+  }
