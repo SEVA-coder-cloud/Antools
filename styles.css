@@ -457,10 +457,12 @@ body {
   background: rgba(255, 110, 48, 1);
 
 }
+
 .become>h3 {
   font-size: 48px;
   color: rgba(255, 255, 255, 0.9);
-  text-align: start;
+  white-space: nowrap;
+  margin-left: -25px;
 }
 
 .become>p {
@@ -475,4 +477,69 @@ body {
   height: 147px;
   margin-bottom: 210px;
   text-align: center;
+}
+
+.form2 {
+  margin-top: -10px;
+  width: 549px;
+  height: 64px;
+  border-radius: 15px;
+  border: rgba(255, 255, 255, 0.1) 1px solid;
+  display: flex;
+  align-items: center;
+  margin-left: 460px;
+}
+
+.form2>input {
+  margin-left: 24.18px;
+  background: #1E252B;
+  border: none;
+  color: rgba(255, 255, 255, 0.38);
+  font-size: 14px;
+}
+
+.form2>button {
+  position: absolute;
+  margin-left: 406.19px;
+  width: 130.43px;
+  height: 48px;
+  border-radius: 8px;
+  border: none !important;
+  color: rgba(253, 245, 255, 1);
+  background: rgba(255, 110, 48, 1)
+}
+.footer{
+  border-top: rgba(255, 255, 255, 0.15) 1px solid;
+  margin-top: 240px;
+  display: flex;
+}
+.Group1{
+  width: 260px;
+  height: 183px;
+  margin-left: 108px;
+  margin-top: 70px;
+}
+.Group1>h3{
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  margin-top: 25px;
+}
+.Group1>p{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 10px;
+}
+.Group2{
+  margin-left: 156px;
+  margin-top: 55px;
+  width: 197px;
+  height: 142px;
+
+}
+.Group2>h2{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.Group2>p{
+  color: rgba(255, 255, 255, 0.55);
 }
