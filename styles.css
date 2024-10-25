@@ -152,7 +152,7 @@ body {
 .h2-p>h2 {
   font-size: 48px;
   color: rgba(255, 255, 255, 0.9);
-
+  white-space: nowrap;
 }
 
 .h2-p>p {
@@ -347,7 +347,7 @@ body {
 .section4>p {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.8);
-  margin-top: -100px;
+  margin-top: -120px;
   margin-left: 428px;
 }
 
@@ -407,7 +407,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   margin-left: 295px;
-  margin-top: 400px;
+  margin-top: 200px;
 }
 
 .alt-text {
@@ -431,7 +431,7 @@ body {
   display: flex;
   justify-content: space-around;
   position: absolute;
-  margin-top: 3696px;
+  margin-top: 3820px;
   margin-left: -450px;
 }
 
@@ -508,38 +508,92 @@ body {
   color: rgba(253, 245, 255, 1);
   background: rgba(255, 110, 48, 1)
 }
-.footer{
+
+.footer {
   border-top: rgba(255, 255, 255, 0.15) 1px solid;
   margin-top: 240px;
   display: flex;
 }
-.Group1{
+
+.Group1 {
   width: 260px;
   height: 183px;
   margin-left: 108px;
   margin-top: 70px;
 }
-.Group1>h3{
+
+.Group1>h3 {
   color: rgba(255, 255, 255, 0.9);
   font-size: 16px;
   margin-top: 25px;
 }
-.Group1>p{
+
+.Group1>p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.55);
   margin-top: 10px;
 }
-.Group2{
+
+.Group2 {
   margin-left: 156px;
   margin-top: 55px;
   width: 197px;
   height: 142px;
 
 }
-.Group2>h2{
+
+.Group2>h2 {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.9);
 }
-.Group2>p{
+
+.Group2>p {
   color: rgba(255, 255, 255, 0.55);
+}
+
+.Group3 {
+  width: 112px;
+  height: 108px;
+  margin-top: 55px;
+  margin-left: 115px;
+}
+
+.Group3>h2 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.Group3>p {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.Group4 {
+  width: 144px;
+  height: 142px;
+  margin-top: 55px;
+  margin-left: 115px;
+}
+
+.Group4>h2 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  white-space: nowrap;
+}
+
+.Group4>p {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.Group1414{
+  width: 600px;
+  height: 319px;
+  display: flex;
+  margin-left: 732px;
+}
+.Group1415{
+  width: 600px;
+  height: 319px;
+  display: flex;
+  margin-top: -290px;
+  margin-left: 732px;
 }
