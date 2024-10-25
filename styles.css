@@ -7,6 +7,7 @@ body {
   margin: 0 auto !important;
   user-select: none;
   font-family: 'Poppins', sans-serif;
+  background: #1E252B;
 }
 
 .canteiner {
@@ -85,7 +86,8 @@ body {
   margin-top: 30px;
   margin-left: 108px;
   color: rgba(255, 255, 255, 0.55);
-  font-size: 18px;
+  font-size: 18px; 
+
 }
 
 .ilustrate-img {
@@ -104,19 +106,23 @@ body {
   margin-top: 60px;
   background: rgba(40, 48, 54, 1);
   margin-left: 111px;
+display: flex;
+align-items: center;
+border: rgba(255, 255, 255, 0.1) 1px solid;
 }
 
 .form>input {
   background: rgba(40, 48, 54, 1);
   border: none;
   color: rgba(255, 255, 255, 0.38);
-  padding: 20px 0px 0px 13px;
+  margin-left: 4px;
+
 }
 
 .form>button {
+  margin-left: 15px;
   width: 130.43px;
   height: 48px;
-  padding: 8px 0px 0px 0px;
   border-radius: 8px;
   border: none !important;
   color: rgba(253, 245, 255, 1);
@@ -124,7 +130,7 @@ body {
 }
 
 .search {
-  padding: 20px 0px 0px 18px;
+  margin-left: 18.06px;
   width: 24px;
   height: 24px;
   border: none;
