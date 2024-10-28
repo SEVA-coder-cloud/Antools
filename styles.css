@@ -302,8 +302,11 @@ border: rgba(255, 255, 255, 0.1) 1px solid;
 
 .tool-card:hover .button--transparent {
   background: #FF6E30;
-  width: 50px !important;
-  height: 20px !important;
+  width: 60px !important;
+  height: 30px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /**
