@@ -537,7 +537,8 @@ border: rgba(255, 255, 255, 0.1) 1px solid;
   width: 260px;
   height: 183px;
   margin-left: 108px;
-  margin-top: 70px;
+  margin-top: 50px;
+
 }
 
 .Group1>h3 {
@@ -550,6 +551,7 @@ border: rgba(255, 255, 255, 0.1) 1px solid;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.55);
   margin-top: 10px;
+  
 }
 
 .Group2 {
@@ -574,6 +576,7 @@ border: rgba(255, 255, 255, 0.1) 1px solid;
   height: 108px;
   margin-top: 55px;
   margin-left: 115px;
+
 }
 
 .Group3>h2 {
@@ -590,6 +593,7 @@ border: rgba(255, 255, 255, 0.1) 1px solid;
   height: 142px;
   margin-top: 55px;
   margin-left: 115px;
+ 
 }
 
 .Group4>h2 {
@@ -607,6 +611,7 @@ border: rgba(255, 255, 255, 0.1) 1px solid;
   height: 319px;
   display: flex;
   margin-left: 732px;
+ 
 }
 .Group1415{
   width: 600px;
@@ -614,7 +619,11 @@ border: rgba(255, 255, 255, 0.1) 1px solid;
   display: flex;
   margin-top: -290px;
   margin-left: 732px;
+ 
 }
 .tool-card__label{
   color: #fff !important;
+}
+a{
+  text-decoration: none;
 }
