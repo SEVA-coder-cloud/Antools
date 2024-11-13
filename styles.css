@@ -69,6 +69,7 @@ body {
   margin-left: 41px;
   margin-top: 0px;
   border: none;
+  cursor: pointer;
 }
 
 .h1 {
@@ -123,6 +124,7 @@ body {
 }
 
 .t-button {
+  cursor: pointer;
   margin-top: 503px;
   margin-left: 467.19px;
   position: absolute;
@@ -131,7 +133,7 @@ body {
   border-radius: 8px;
   border: none !important;
   color: rgba(253, 245, 255, 1);
-  background: rgba(255, 110, 48, 1)
+  background: rgba(255, 110, 48, 1);
 }
 
 .t-search {
@@ -357,6 +359,7 @@ body {
   background: rgba(30, 37, 43, 1);
   margin-top: 100px;
   margin-left: 628px;
+  cursor: pointer;
 }
 
 .section4 {
@@ -524,6 +527,7 @@ cursor: pointer;
 }
 
 .form2>button {
+cursor: pointer;
   position: absolute;
   margin-left: 406.19px;
   width: 130.43px;
@@ -531,7 +535,7 @@ cursor: pointer;
   border-radius: 8px;
   border: none !important;
   color: rgba(253, 245, 255, 1);
-  background: rgba(255, 110, 48, 1)
+  background: rgba(255, 110, 48, 1);
 }
 
 .footer {
