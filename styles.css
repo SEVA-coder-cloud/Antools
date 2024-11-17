@@ -71,6 +71,14 @@ body {
   border: none;
   cursor: pointer;
 }
+button:hover{
+  background-color: aqua;
+  top: -1px !important;
+  transition: all .5s;
+   color: #1E252B;
+}
+
+
 
 .h1 {
   margin-top: 104px;
@@ -121,6 +129,8 @@ body {
   border: none;
   color: rgba(255, 255, 255, 0.38);
   position: absolute;
+  width: 227.12px;
+  height: 24px;
 }
 
 .t-button {
@@ -360,8 +370,18 @@ body {
   margin-top: 100px;
   margin-left: 628px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.but2:hover{
+  border: darkcyan 32px solid;
+  background-color: rgb(4, 7, 7);
+  top: -1px;
+  transition: all 1s;
+ color: #ffffff;
+ opacity: 95%;
+}
 .section4 {
   width: 1224px;
   height: 253px;
@@ -413,6 +433,12 @@ body {
   color: rgba(255, 255, 255, 1);
   border: none;
   cursor: pointer;
+}
+.group1405>button:hover{
+  background-color: aqua;
+  top: -1px;
+  transition: all .5s;
+   color: #1E252B;
 }
 
 .ronaldricards>img:last-child {
