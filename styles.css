@@ -553,7 +553,7 @@ cursor: pointer;
 }
 
 .form2>button {
-cursor: pointer;
+  cursor: pointer;
   position: absolute;
   margin-left: 406.19px;
   width: 130.43px;
@@ -563,6 +563,8 @@ cursor: pointer;
   color: rgba(253, 245, 255, 1);
   background: rgba(255, 110, 48, 1);
 }
+
+
 
 .footer {
   border-top: rgba(255, 255, 255, 0.15) 1px solid;
@@ -575,7 +577,6 @@ cursor: pointer;
   height: 183px;
   margin-left: 108px;
   margin-top: 50px;
-
 }
 
 .Group1>h3 {
