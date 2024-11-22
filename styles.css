@@ -71,11 +71,12 @@ body {
   border: none;
   cursor: pointer;
 }
-button:hover{
+
+button:hover {
   background-color: aqua;
-  top: -1px !important;
+  top: -1px;
   transition: all .5s;
-   color: #1E252B;
+  color: #1E252B;
 }
 
 
@@ -374,14 +375,16 @@ button:hover{
   justify-content: center;
   align-items: center;
 }
-.but2:hover{
+
+.but2:hover {
   border: darkcyan 32px solid;
   background-color: rgb(4, 7, 7);
   top: -1px;
-  transition: all 1s;
- color: #ffffff;
- opacity: 95%;
+  transition: all 0.2s;
+  color: #ffffff;
+  opacity: 95%;
 }
+
 .section4 {
   width: 1224px;
   height: 253px;
@@ -434,11 +437,12 @@ button:hover{
   border: none;
   cursor: pointer;
 }
-.group1405>button:hover{
+
+.group1405>button:hover {
   background-color: aqua;
   top: -1px;
   transition: all .5s;
-   color: #1E252B;
+  color: #1E252B;
 }
 
 .ronaldricards>img:last-child {
@@ -476,7 +480,7 @@ button:hover{
   height: 48px;
   background: #1E252B;
   border: none;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .alt-retyre {
@@ -552,17 +556,20 @@ cursor: pointer;
   font-size: 14px;
 }
 
-.form2>button {
-  cursor: pointer;
+.buetton-Join-Us {
   position: absolute;
   margin-left: 406.19px;
   width: 130.43px;
   height: 48px;
   border-radius: 8px;
-  border: none !important;
+  border: none;
   color: rgba(253, 245, 255, 1);
   background: rgba(255, 110, 48, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 
 
@@ -590,6 +597,12 @@ cursor: pointer;
   color: rgba(255, 255, 255, 0.55);
   margin-top: 10px;
 
+}
+
+.group1:hover{
+  margin-top: -1px;
+  transition: all .5s;
+background: #FD3B41;
 }
 
 .Group2 {
@@ -667,7 +680,4 @@ cursor: pointer;
 
 a {
   text-decoration: none;
-}
-button{
-  cursor: pointer !important;
 }
