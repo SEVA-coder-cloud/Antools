@@ -557,8 +557,9 @@ button:hover {
 }
 
 .buetton-Join-Us {
+  margin-top: 4722px;
   position: absolute;
-  margin-left: 406.19px;
+  margin-left: 868px;
   width: 130.43px;
   height: 48px;
   border-radius: 8px;
@@ -570,7 +571,12 @@ button:hover {
   align-items: center;
 }
 
-
+.buetton-Join-Us:hover{
+  background-color: aqua;
+  top: -1px;
+  transition: all .5s;
+  color: #1E252B;
+}
 
 
 .footer {
