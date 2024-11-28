@@ -11,18 +11,30 @@
 </head>
 
 <body>
-  <div class="canteiner">
+
+  <div id="awaitLoader" style="font-size: 14pt ; display:inline-block; text-align: center; margin: auto;">
+    <br>
+    <div id="loaderText" style="text-align: center; margin: auto; color: yellow;">My Loader...</div>
+      <br>
+    <div class="awaitLoaderSpin"></div>
+  </div>
+
+  <div id="fullPage" class="canteiner" >
     <div class="header" ad="heder">
     <a href="#"><img src="./images/Group 1399.png" alt="" class="logo"></a>
       <ul class="nav">
-        <a href="#">Home</a>
-        <a href="#">Categories<img src="./images/chevron-down.png" alt=""></a>
-        <a href="#">My collections</a>
+        <a id="home" href="#">Home</a>
+        <a id="menuCategories" href="#">Categories<img src="./images/chevron-down.png" alt=""></a>
+        <a id="menucollections" href="#">My collections</a>
         <a href="#">Blog</a>
+        <a href="#" onclick="setLang('eng')">Eng</a>
+        <a href="#" onclick="setLang('ukr')">Ukr</a>
+        <input type="checkbox" id="language_switch">
       </ul>
       <a href="#" class="ae">login</a>
       <button class="s-bn">Sing Up</button>
     </div>
+
     <h1 class="h1">
       Awesome tools for<br>
       Designer & Developer<samp>.</samp>
@@ -490,7 +502,7 @@
     </section>
 
   </div>
-  <script src="./script.js"></script>
+  <script src="./a.js"></script>
 </body>
 
 </html>
